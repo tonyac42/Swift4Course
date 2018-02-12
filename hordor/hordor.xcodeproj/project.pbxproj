@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9529121C202007EC009BC5BB /* hordor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9529121B202007EC009BC5BB /* hordor.jpg */; };
+		9597243D20181ADF00BDD1D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9597243C20181ADF00BDD1D4 /* AppDelegate.swift */; };
+		9597243F20181ADF00BDD1D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9597243E20181ADF00BDD1D4 /* ViewController.swift */; };
+		9597244220181ADF00BDD1D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9597244020181ADF00BDD1D4 /* Main.storyboard */; };
+		9597244420181ADF00BDD1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9597244320181ADF00BDD1D4 /* Assets.xcassets */; };
+		9597244720181ADF00BDD1D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9597244520181ADF00BDD1D4 /* LaunchScreen.storyboard */; };
+		9597245520181FFB00BDD1D4 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9597245420181FFB00BDD1D4 /* KeyboardViewController.swift */; };
+		9597245920181FFB00BDD1D4 /* hordorKey.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9597245220181FFB00BDD1D4 /* hordorKey.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9597245720181FFB00BDD1D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9597243120181ADD00BDD1D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9597245120181FFB00BDD1D4;
+			remoteInfo = hordorKey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9597245D20181FFB00BDD1D4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9597245920181FFB00BDD1D4 /* hordorKey.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9529121B202007EC009BC5BB /* hordor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hordor.jpg; sourceTree = "<group>"; };
+		9597243920181ADE00BDD1D4 /* hordor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hordor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9597243C20181ADF00BDD1D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9597243E20181ADF00BDD1D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9597244120181ADF00BDD1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9597244320181ADF00BDD1D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9597244620181ADF00BDD1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9597244820181ADF00BDD1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9597245220181FFB00BDD1D4 /* hordorKey.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = hordorKey.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9597245420181FFB00BDD1D4 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		9597245620181FFB00BDD1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9597243620181ADE00BDD1D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9597244F20181FFB00BDD1D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9597243020181ADD00BDD1D4 = {
+			isa = PBXGroup;
+			children = (
+				9597243B20181ADE00BDD1D4 /* hordor */,
+				9597245320181FFB00BDD1D4 /* hordorKey */,
+				9597243A20181ADE00BDD1D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9597243A20181ADE00BDD1D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9597243920181ADE00BDD1D4 /* hordor.app */,
+				9597245220181FFB00BDD1D4 /* hordorKey.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9597243B20181ADE00BDD1D4 /* hordor */ = {
+			isa = PBXGroup;
+			children = (
+				9597243C20181ADF00BDD1D4 /* AppDelegate.swift */,
+				9597243E20181ADF00BDD1D4 /* ViewController.swift */,
+				9597244020181ADF00BDD1D4 /* Main.storyboard */,
+				9597244320181ADF00BDD1D4 /* Assets.xcassets */,
+				9597244520181ADF00BDD1D4 /* LaunchScreen.storyboard */,
+				9597244820181ADF00BDD1D4 /* Info.plist */,
+			);
+			path = hordor;
+			sourceTree = "<group>";
+		};
+		9597245320181FFB00BDD1D4 /* hordorKey */ = {
+			isa = PBXGroup;
+			children = (
+				9597245420181FFB00BDD1D4 /* KeyboardViewController.swift */,
+				9529121B202007EC009BC5BB /* hordor.jpg */,
+				9597245620181FFB00BDD1D4 /* Info.plist */,
+			);
+			path = hordorKey;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9597243820181ADE00BDD1D4 /* hordor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9597244B20181ADF00BDD1D4 /* Build configuration list for PBXNativeTarget "hordor" */;
+			buildPhases = (
+				9597243520181ADE00BDD1D4 /* Sources */,
+				9597243620181ADE00BDD1D4 /* Frameworks */,
+				9597243720181ADE00BDD1D4 /* Resources */,
+				9597245D20181FFB00BDD1D4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9597245820181FFB00BDD1D4 /* PBXTargetDependency */,
+			);
+			name = hordor;
+			productName = hordor;
+			productReference = 9597243920181ADE00BDD1D4 /* hordor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9597245120181FFB00BDD1D4 /* hordorKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9597245A20181FFB00BDD1D4 /* Build configuration list for PBXNativeTarget "hordorKey" */;
+			buildPhases = (
+				9597244E20181FFB00BDD1D4 /* Sources */,
+				9597244F20181FFB00BDD1D4 /* Frameworks */,
+				9597245020181FFB00BDD1D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hordorKey;
+			productName = hordorKey;
+			productReference = 9597245220181FFB00BDD1D4 /* hordorKey.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9597243120181ADD00BDD1D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Resin;
+				TargetAttributes = {
+					9597243820181ADE00BDD1D4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9597245120181FFB00BDD1D4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9597243420181ADD00BDD1D4 /* Build configuration list for PBXProject "hordor" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9597243020181ADD00BDD1D4;
+			productRefGroup = 9597243A20181ADE00BDD1D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9597243820181ADE00BDD1D4 /* hordor */,
+				9597245120181FFB00BDD1D4 /* hordorKey */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9597243720181ADE00BDD1D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9597244720181ADF00BDD1D4 /* LaunchScreen.storyboard in Resources */,
+				9597244420181ADF00BDD1D4 /* Assets.xcassets in Resources */,
+				9597244220181ADF00BDD1D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9597245020181FFB00BDD1D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9529121C202007EC009BC5BB /* hordor.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9597243520181ADE00BDD1D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9597243F20181ADF00BDD1D4 /* ViewController.swift in Sources */,
+				9597243D20181ADF00BDD1D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9597244E20181FFB00BDD1D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9597245520181FFB00BDD1D4 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9597245820181FFB00BDD1D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9597245120181FFB00BDD1D4 /* hordorKey */;
+			targetProxy = 9597245720181FFB00BDD1D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9597244020181ADF00BDD1D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9597244120181ADF00BDD1D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9597244520181ADF00BDD1D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9597244620181ADF00BDD1D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9597244920181ADF00BDD1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9597244A20181ADF00BDD1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9597244C20181ADF00BDD1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QTHY8KCPHS;
+				INFOPLIST_FILE = hordor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tone-sdevelopment.hordor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9597244D20181ADF00BDD1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QTHY8KCPHS;
+				INFOPLIST_FILE = hordor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tone-sdevelopment.hordor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9597245B20181FFB00BDD1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QTHY8KCPHS;
+				INFOPLIST_FILE = hordorKey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tone-sdevelopment.hordor.hordorKey";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9597245C20181FFB00BDD1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QTHY8KCPHS;
+				INFOPLIST_FILE = hordorKey/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tone-sdevelopment.hordor.hordorKey";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9597243420181ADD00BDD1D4 /* Build configuration list for PBXProject "hordor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9597244920181ADF00BDD1D4 /* Debug */,
+				9597244A20181ADF00BDD1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9597244B20181ADF00BDD1D4 /* Build configuration list for PBXNativeTarget "hordor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9597244C20181ADF00BDD1D4 /* Debug */,
+				9597244D20181ADF00BDD1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9597245A20181FFB00BDD1D4 /* Build configuration list for PBXNativeTarget "hordorKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9597245B20181FFB00BDD1D4 /* Debug */,
+				9597245C20181FFB00BDD1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9597243120181ADD00BDD1D4 /* Project object */;
+}
