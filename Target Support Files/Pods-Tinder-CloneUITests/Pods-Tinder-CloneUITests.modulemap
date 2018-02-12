@@ -1,0 +1,6 @@
+framework module Pods_Tinder_CloneUITests {
+  umbrella header "Pods-Tinder-CloneUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
