@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Animations___II" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rhe-bm-3Gt">
+                                <rect key="frame" x="0.0" y="113" width="375" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="rhe-bm-3Gt" secondAttribute="height" multiplier="15:16" id="Irf-Ko-Mkt"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4j-DD-Xsf">
+                                <rect key="frame" x="164" y="75" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="X4j-DD-Xsf" secondAttribute="height" multiplier="23:15" id="Fm2-Eh-YaA"/>
+                                </constraints>
+                                <state key="normal" title="Play"/>
+                                <connections>
+                                    <action selector="playTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fcc-cV-4Yo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X4j-DD-Xsf" secondAttribute="trailing" constant="165" id="ME2-L3-qG8"/>
+                            <constraint firstItem="rhe-bm-3Gt" firstAttribute="top" secondItem="X4j-DD-Xsf" secondAttribute="bottom" constant="8" id="OSb-yH-0Bv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rhe-bm-3Gt" secondAttribute="bottom" constant="154" id="UK3-GU-GpL"/>
+                            <constraint firstItem="rhe-bm-3Gt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kDT-t8-DW1"/>
+                            <constraint firstItem="rhe-bm-3Gt" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="r6X-tJ-1f6"/>
+                            <constraint firstItem="X4j-DD-Xsf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="55" id="uzY-1w-2Kg"/>
+                            <constraint firstItem="X4j-DD-Xsf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="164" id="xAi-dR-OcY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="image" destination="rhe-bm-3Gt" id="hws-Ih-i5F"/>
+                        <outlet property="playOrPause" destination="X4j-DD-Xsf" id="j3E-KE-7O2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
